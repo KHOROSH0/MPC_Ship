@@ -55,12 +55,12 @@ $R$ penalizes control effort;
 
 $P$ is the terminal cost weighting matrix.
 
-##1. src/leinear_ship.m — MPC vs. LQR
+## 1. src/leinear_ship.m — MPC vs. LQR
 
 This script compares Model Predictive Control with Linear Quadratic Regulator (LQR) control for a linear ship model.
 
 The experiment investigates the relationship between the prediction horizon and the resulting control behavior. For a suitable unconstrained linear-quadratic formulation, as the MPC prediction horizon tends to infinity, the MPC feedback law approaches the infinite-horizon LQR controller, provided the standard stabilizability, detectability, and terminal-cost assumptions are satisfied.
 
-##2. src/leinear_ship2.m — Ship Heading Maneuver
+## 2. src/leinear_ship2.m — Ship Heading Maneuver
 
 This script simulates a ship turning through a heading angle of 10 degrees, subject to constraints based on the ship model described in task/Model_of_ship.pdf.
