@@ -35,10 +35,6 @@ Q
 +
 u_{k+j}^T R u_{k+j}
 \right]
-+
-(x_{k+N}-x_{k+N}^{\mathrm{ref}})^T
-P
-(x_{k+N}-x_{k+N}^{\mathrm{ref}}),
 $$
 
 subject to the system dynamics and any imposed state and control constraints.
